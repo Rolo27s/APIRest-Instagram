@@ -11,3 +11,7 @@ La API se puede utilizar para acceder a cualquier tipo de cuenta de Instagram, p
 Para mas información consultar la [documentacion de la APIRest de Instagram](https://developers.facebook.com/docs/instagram-basic-display-api?locale=es_ES)
 
 Video explicativo de integracion de la API de Instagram con Javascript [AQUI](https://www.youtube.com/watch?v=yfB-iAvk-tY)
+
+## Organizacion del proyecto en GitHub
+* Será desarrollado por 3 developers y cada uno trabajará en su propia rama.
+* Existirá una rama adicional principal (main) la cual contendrá la aplicación final.
