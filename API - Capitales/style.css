@@ -1,0 +1,89 @@
+body {
+    font-family: 'Ginebra', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: #f5f5f5; /* Color de fondo sólido */
+    color: #333;
+    width: 80%;
+    margin: 0% auto;
+}
+
+h1 {
+    font-family: 'Ginebra', sans-serif;
+    font-size: 40px; /* Tamaño más grande para el título principal */
+    text-align: center; /* Centra el título principal */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+h2 {
+    font-family: 'Ginebra', sans-serif;
+    font-size: 20px; /* Tamaño más grande para el subtítulo */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+#filterOption {
+    font-family: 'Ginebra', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 20px; /* Mueve el filtro a la izquierda */
+}
+
+#searchInput,
+button {
+    font-family: 'Ginebra', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 20px; /* Mueve el campo de búsqueda y el botón a la izquierda */
+}
+
+#results {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #333;
+}
+
+#results table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+#results th,
+#results td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center; /* Centrado */
+}
+
+#results th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+#results td {
+    color: #666;
+}
+
+#results img {
+    max-width: 50px;
+    height: auto;
+}

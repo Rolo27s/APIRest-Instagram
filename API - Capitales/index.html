@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST Countries API</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" /> 
+</head>
+<body>
+    <h1>BÚSQUEDA DE PAÍSES</h1>
+    <h2>Filtrar por:</h2>
+    <select name="filterOption" id="filterOption">
+        <option value="name">Nombre</option>
+        <option value="capital">Capital</option>
+        <option value="alpha">Codigo de país</option>
+        <option value="currency">Moneda</option>
+        <option value="lang">Lenguaje</option>
+    </select>
+    <input type="text" id="searchInput" placeholder="Introduce el término de búsqueda">
+    <button onclick="translateAndSearch()">Buscar</button>
+    <div id="results"></div>
+    <script src="./API.js"></script>
+</body>
+</html>
