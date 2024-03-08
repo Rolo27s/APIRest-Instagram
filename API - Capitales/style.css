@@ -86,4 +86,5 @@ button {
 #results img {
     max-width: 50px;
     height: auto;
+    border: 1px solid black;
 }
